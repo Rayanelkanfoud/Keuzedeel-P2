@@ -1,0 +1,37 @@
+
+{
+  "slides": [
+    {
+      "title": "Indoor Plants",
+      "description": "Greenery for home and office",
+      "image": "/images/bouquet.jpg"
+    },
+    {
+      "title": "Fresh bouquets",
+      "description": "shop for every occasion",
+      "image": "/images/flowers.jpg"
+    },
+    {
+      "title": "Wedding Flowers",
+      "description": "Beautiful flowers for your special day",
+      "image": "/images/bouquet.jpg"
+    }
+  ],
+  "categories": [
+    { "name": "Roses", "description": "Classic and seasonal roses" },
+    { "name": "Bouquets", "description": "Curated floral bundles" },
+    { "name": "Plants", "description": "Indoor and outdoor greens" },
+    { "name": "Wedding", "description": "Ceremony and reception florals" },
+    { "name": "Sympathy", "description": "Thoughtful remembrance pieces" },
+    { "name": "Gifts", "description": "Flowers paired with extras" }
+  ],
+  "shop": {
+    "image": "/images/shop.jpg",
+    "address": "123 Flower Street",
+    "district": "Garden District",
+    "city": "Bloomtown, BT 45678",
+    "days": "Open Monday to Saturday",
+    "hours": "9:00 AM – 6:00 PM"
+  },
+  "socials": ["Instagram", "Facebook", "Pinterest", "Twitter"]
+}

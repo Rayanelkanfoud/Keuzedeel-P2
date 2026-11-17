@@ -1,0 +1,137 @@
+
+body {
+  margin: 0;
+  background: #333;
+  color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+}
+
+.navbar {
+  background: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+.hero {
+  padding-top: 114px;
+  padding-bottom: 158px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.hero p, .shop p {
+  font-size: 13px;
+}
+
+.slider, .shop img {
+  aspect-ratio: 3 / 2;
+}
+
+.slider .carousel-item img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.slider .carousel-caption {
+  bottom: 8%;
+}
+
+.slider h2 {
+  font-size: 22px;
+}
+
+.slider p {
+  font-size: 13px;
+}
+
+.category-card {
+  min-height: 70px;
+}
+
+.category-card h3 {
+  font-size: 16px;
+}
+
+.category-card p, .footer {
+  font-size: 13px;
+}
+
+.shop {
+  margin-top: 38px;
+}
+
+.shop img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.shop h2 {
+  font-size: 26px;
+}
+
+.footer {
+  padding: 40px 0 12px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero {
+    padding: 230px 0 300px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p, .shop p, .footer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 77%;
+  }
+
+  .navbar .container {
+    width: 85%;
+  }
+
+  .hero {
+    padding: 20px 0 68px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .slider {
+    margin-top: 135px;
+  }
+
+  .shop {
+    margin-top: 45px;
+  }
+
+  .footer {
+    padding-top: 45px;
+  }
+}
