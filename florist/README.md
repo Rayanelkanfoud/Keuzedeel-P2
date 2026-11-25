@@ -1,16 +1,9 @@
-# React + Vite
+# Florist · Opdracht 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Welke technieken heb ik gebruikt en waarom?
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React en JSX.**ik heb de pagina opgedeeld in componenten, zoals het menu, de carrousel en de categorieën. zo kan ik elk deel apart aanpassen en blijft de code overzichtelijk.
+- **Fetch en JSON.** Met `fetch()` haal ik `flowers.json` op zodra de pagina opent. De gegevens worden in React opgeslagen. met `.map()` maak ik voor elke categorie een kaart met de naam en beschrijving. zo kan ik de gegevens aanpassen op één plek. Tijdens het laden zie je een laadtekst en als het ophalen mislukt verschijnt er een foutmelding.
+- **Bootstrap.** Met het grid staan de kaarten op pc in drie kolommen op tablet in twee en op mobiel in één. Ik gebruik ook de Bootstrap-carrousel en het inklapbare menu, omdat die al de knoppen en het openen en sluiten regelen.
+- **Eigen CSS en media queries.** Ik gebruik CSS voor de kleuren, afstanden en tekstgroottes. Met media queries kan ik die bijvoorbeeld op mobiel aanpassen zodat de laout goed past op een kleiner scherm.
+- **Vite.** daarmee kan ik de site lokaal starten tijdens het bouwen. Met `npm run build` maak ik de versie die ik online kan zetten.
